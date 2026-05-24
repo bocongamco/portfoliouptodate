@@ -178,10 +178,10 @@ img { display: block; max-width: 100%; }
 
 .avatar {
   width: 88px; height: 88px; border-radius: 50%;
-  background: linear-gradient(135deg, var(--orange), var(--peach));
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Poppins', sans-serif; font-size: 1.9rem; font-weight: 900; color: #fff;
+  object-fit: cover; object-position: center top;
+  border: 3px solid var(--orange);
   margin-bottom: 1rem;
+  display: block;
 }
 .hero-card h3 { font-size: 1.25rem; font-weight: 700; }
 .hero-card .role { color: var(--text-mid); font-size: .88rem; margin-bottom: 1.1rem; }
