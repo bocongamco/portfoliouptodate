@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phat Cao | Data Scientist &amp; Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">PC<span>.</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#hobbies">Life</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge">
+        <span class="dot-live"></span>
+        Open to opportunities
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="hl">Phat</span>.<br>
+        Data Scientist<br>&amp; Developer.
+      </h1>
+      <p class="hero-sub">
+        Master of Data Science candidate at RMIT, building intelligent systems
+        with Python, NLP, and LLMs. Turning raw data into real-world impact.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-solid"><i class="fas fa-rocket"></i> View My Work</a>
+        <a href="#contact" class="btn-outline"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num" data-target="2" data-suffix="+">2+</div>
+          <div class="stat-lbl">Years in Tech</div>
+        </div>
+        <div>
+          <div class="stat-num" data-target="96" data-suffix="%">96%</div>
+          <div class="stat-lbl">Model Accuracy</div>
+        </div>
+        <div>
+          <div class="stat-num" data-target="99" data-suffix="%">99%</div>
+          <div class="stat-lbl">CSAT Score</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card-wrap">
+      <div style="position:relative;">
+        <div class="hero-card">
+          <div class="avatar">PC</div>
+          <h3>Phat Cao</h3>
+          <p class="role">Data Scientist &amp; Developer</p>
+          <div class="card-tags">
+            <span class="ctag">Python</span>
+            <span class="ctag">NLP</span>
+            <span class="ctag">LLMs</span>
+            <span class="ctag">SQL</span>
+            <span class="ctag">React</span>
+            <span class="ctag">Flask</span>
+          </div>
+          <div class="card-loc">
+            <i class="fas fa-map-marker-alt" style="color:var(--orange)"></i>
+            Victoria, Australia
+          </div>
+        </div>
+        <div class="float-pill pill-1">
+          <i class="fas fa-brain" style="color:var(--orange)"></i> ML / AI
+        </div>
+        <div class="float-pill pill-2">
+          <i class="fas fa-graduation-cap" style="color:var(--orange)"></i> RMIT MDS
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-visual reveal">
+        <div class="about-block">
+          <div class="about-block-txt">PC</div>
+          <div class="about-block-center">&#128187;</div>
+        </div>
+        <div class="about-chip">
+          <p>Currently studying</p>
+          <h4>MDS @ RMIT</h4>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <span class="sec-label">About Me</span>
+        <h2 class="sec-title">Curiosity-driven.<br>Data-powered.</h2>
+        <div class="divider"></div>
+        <p class="about-bio">
+          I'm an aspiring Data Scientist pursuing a Master of Data Science at RMIT University.
+          My focus sits at the intersection of machine learning, NLP, and real-world system design,
+          building things that don't just process data but generate meaningful insight.
+        </p>
+        <p class="about-bio">
+          From automating reporting pipelines at a government ombudsman to training transformer
+          classifiers from scratch, I love the full journey from raw data through to a deployed product.
+        </p>
+        <div class="about-grid-cards">
+          <div class="about-chip-card">
+            <div class="aci"><i class="fas fa-university"></i></div>
+            <div><h5>RMIT University</h5><p>Master of Data Science</p></div>
+          </div>
+          <div class="about-chip-card">
+            <div class="aci"><i class="fas fa-map-marker-alt"></i></div>
+            <div><h5>Victoria, AU</h5><p>Open to remote &amp; hybrid</p></div>
+          </div>
+          <div class="about-chip-card">
+            <div class="aci"><i class="fas fa-code"></i></div>
+            <div><h5>Full-stack capable</h5><p>Python, JS, C#, SQL</p></div>
+          </div>
+          <div class="about-chip-card">
+            <div class="aci"><i class="fas fa-brain"></i></div>
+            <div><h5>NLP &amp; LLMs</h5><p>Transformers, RAG, Ollama</p></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-label">What I Work With</span>
+      <h2 class="sec-title">Technical Skills</h2>
+      <div class="divider"></div>
+      <p class="sec-desc">A well-rounded toolkit spanning data science, AI engineering, and web development.</p>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="sk-icon" style="background:rgba(232,101,26,.1); color:var(--orange)">
+          <i class="fas fa-code"></i>
+        </div>
+        <h4>Languages</h4>
+        <div class="stags">
+          <span class="stag">Python</span>
+          <span class="stag">SQL</span>
+          <span class="stag">JavaScript</span>
+          <span class="stag">TypeScript</span>
+          <span class="stag">C#</span>
+          <span class="stag">HTML / CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="sk-icon" style="background:rgba(244,162,97,.15); color:var(--peach)">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h4>AI &amp; Data Science</h4>
+        <div class="stags">
+          <span class="stag">Hugging Face</span>
+          <span class="stag">DistilBERT</span>
+          <span class="stag">scikit-learn</span>
+          <span class="stag">Pandas</span>
+          <span class="stag">Ollama</span>
+          <span class="stag">LangChain</span>
+          <span class="stag">RAG Pipelines</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="sk-icon" style="background:rgba(233,196,106,.15); color:#C9A227">
+          <i class="fas fa-layer-group"></i>
+        </div>
+        <h4>Frameworks</h4>
+        <div class="stags">
+          <span class="stag">.NET 8 Web API</span>
+          <span class="stag">ASP.NET Core</span>
+          <span class="stag">React.js</span>
+          <span class="stag">Flask</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="sk-icon" style="background:rgba(196,81,26,.1); color:var(--orange-dark)">
+          <i class="fas fa-database"></i>
+        </div>
+        <h4>Databases &amp; Cloud</h4>
+        <div class="stags">
+          <span class="stag">PostgreSQL</span>
+          <span class="stag">SQL Server</span>
+          <span class="stag">Entity Framework</span>
+          <span class="stag">Microsoft Fabric</span>
+          <span class="stag">Power BI</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-label">Where I've Worked</span>
+      <h2 class="sec-title">Experience</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="tl">
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-row">
+          <span class="tl-company">Telecommunications Industry Ombudsman</span>
+          <span class="tl-pill live">Current</span>
+        </div>
+        <div class="tl-role">Data Science Intern</div>
+        <div class="tl-date">March 2025 to Present &middot; Melbourne, AU</div>
+        <ul class="tl-pts">
+          <li class="tl-pt">
+            <span class="tl-pt-dot"></span>
+            <div class="tl-pt-body">
+              <p>Built an automated LLM-powered insight system using LangChain and Ollama, cutting manual reporting time from multiple days down to under 30 minutes per cycle.</p>
+              <span class="kpi">~93% reduction in reporting time</span>
+            </div>
+          </li>
+          <li class="tl-pt">
+            <span class="tl-pt-dot"></span>
+            <div class="tl-pt-body">
+              <p>Developed and iterated on Jinja2 prompt templates to produce structured, repeatable outputs aligned with existing business reports.</p>
+              <span class="kpi">10+ templates built</span>&ensp;<span class="kpi">~80% consistency improvement</span>
+            </div>
+          </li>
+          <li class="tl-pt">
+            <span class="tl-pt-dot"></span>
+            <div class="tl-pt-body">
+              <p>Integrated Power BI data into Microsoft Fabric (Notebook and Lakehouse), preparing and validating all datasets against approved business figures.</p>
+              <span class="kpi">100% metric alignment</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-row">
+          <span class="tl-company">Optus</span>
+          <span class="tl-pill live">Current</span>
+        </div>
+        <div class="tl-role">Service Desk Assistant</div>
+        <div class="tl-date">January 2025 to Present &middot; Victoria, AU</div>
+        <ul class="tl-pts">
+          <li class="tl-pt">
+            <span class="tl-pt-dot"></span>
+            <div class="tl-pt-body">
+              <p>Delivered Level 1 technical support in a high-volume retail environment across hardware, software, and account cases.</p>
+              <span class="kpi">99% CSAT rating</span>
+            </div>
+          </li>
+          <li class="tl-pt">
+            <span class="tl-pt-dot"></span>
+            <div class="tl-pt-body">
+              <p>Managed end-to-end case ownership in Salesforce and Jarvis using the SAO (Situation, Action, Outcome) format with full documentation on every case.</p>
+              <span class="kpi">100% documentation compliance</span>
+            </div>
+          </li>
+          <li class="tl-pt">
+            <span class="tl-pt-dot"></span>
+            <div class="tl-pt-body">
+              <p>Supported device onboarding (iOS and Android), SIM provisioning, modem and router setup, and broadband service verification across fixed and mobile services.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-label">Things I've Built</span>
+      <h2 class="sec-title">Personal Projects</h2>
+      <div class="divider"></div>
+      <p class="sec-desc">Hands-on ML and NLP projects from dataset to deployed product.</p>
+    </div>
+
+    <div class="proj-grid">
+
+      <div class="proj-card reveal">
+        <div class="proj-top">
+          <div class="proj-ico" style="background:rgba(232,101,26,.1)">
+            <i class="fas fa-tshirt" style="color:var(--orange)"></i>
+          </div>
+          <div class="proj-acts">
+            <a href="https://youtu.be/HzJsgSMVjiQ" target="_blank" rel="noopener noreferrer" class="proj-btn" title="Demo video">
+              <i class="fas fa-play"></i>
+            </a>
+            <a href="https://github.com/bocongamco/Clothing-Review" target="_blank" rel="noopener noreferrer" class="proj-btn" title="GitHub repo">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>Clothing Review Classifier</h3>
+          <p>
+            Text classification pipeline on roughly 19,700 noisy clothing reviews. Covers data cleaning,
+            feature engineering (Count, TF-IDF, embeddings), and logistic regression with
+            k-fold cross-validation. Deployed as a real-time prediction Flask app.
+          </p>
+          <div class="tech-row">
+            <span class="ttag">Python</span>
+            <span class="ttag">scikit-learn</span>
+            <span class="ttag">Pandas</span>
+            <span class="ttag">TF-IDF</span>
+            <span class="ttag">Flask</span>
+            <span class="ttag">NLP</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-top">
+          <div class="proj-ico" style="background:rgba(233,196,106,.15)">
+            <i class="fas fa-comment-dots" style="color:#C9A227"></i>
+          </div>
+          <div class="proj-acts">
+            <a href="https://github.com/bocongamco/Flirt-or-not" target="_blank" rel="noopener noreferrer" class="proj-btn" title="GitHub repo">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <h3>FlirtSense NLP Classifier</h3>
+          <p>
+            DistilBERT-based classifier detecting flirting intent in chat messages.
+            Trained on a 5,000-message synthetic dataset (GPT-generated) with intentional noise
+            and class imbalance to reflect real conversational data. Exposes confidence scores
+            for interpretability on borderline predictions. Achieved 96 to 97% accuracy on held-out data.
+          </p>
+          <div class="tech-row">
+            <span class="ttag">Python</span>
+            <span class="ttag">DistilBERT</span>
+            <span class="ttag">Hugging Face</span>
+            <span class="ttag">Transformers</span>
+            <span class="ttag">NLP</span>
+            <span class="ttag">GPT</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOBBIES -->
+<section id="hobbies" class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-label">Outside the Code</span>
+      <h2 class="sec-title">What I'm Into</h2>
+      <div class="divider"></div>
+      <p class="sec-desc">Life away from the terminal: movement, style, and capturing moments.</p>
+    </div>
+    <div class="hob-grid">
+
+      <div class="hob-card hob-card-1 reveal">
+        <div class="hob-bg"></div>
+        <div class="hob-stripe"></div>
+        <div class="hob-content">
+          <div class="hob-emo">&#128247;</div>
+          <h3>Photography</h3>
+          <p>Finding beauty in everyday frames: street portraits and urban compositions.</p>
+        </div>
+      </div>
+
+      <div class="hob-card hob-card-2 reveal">
+        <div class="hob-bg"></div>
+        <div class="hob-stripe"></div>
+        <div class="hob-content">
+          <div class="hob-emo">&#127947;</div>
+          <h3>Gym &amp; Fitness</h3>
+          <p>Consistent training and progressive overload. Physical discipline sharpens mental clarity.</p>
+        </div>
+      </div>
+
+      <div class="hob-card hob-card-3 reveal">
+        <div class="hob-bg"></div>
+        <div class="hob-stripe"></div>
+        <div class="hob-content">
+          <div class="hob-emo">&#128084;</div>
+          <h3>Style &amp; Clothing</h3>
+          <p>Fashion as self-expression, building fits that balance function with personality.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact-wrap">
+
+      <div class="reveal">
+        <span class="sec-label">Get in Touch</span>
+        <h2 class="sec-title">Let's Connect</h2>
+        <div class="divider"></div>
+        <p>
+          I'm open to data science roles, internships, and interesting collaborations.
+          Whether it's a project pitch, a question, or just a chat, reach out any time.
+        </p>
+
+        <a href="mailto:cphat.dev@gmail.com" class="c-item">
+          <div class="c-ico"><i class="fas fa-envelope"></i></div>
+          <div><p>Email</p><h5>cphat.dev@gmail.com</h5></div>
+        </a>
+
+        <a href="https://github.com/bocongamco" target="_blank" rel="noopener noreferrer" class="c-item">
+          <div class="c-ico"><i class="fab fa-github"></i></div>
+          <div><p>GitHub</p><h5>github.com/bocongamco</h5></div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/nhat-cao-745438215/" target="_blank" rel="noopener noreferrer" class="c-item">
+          <div class="c-ico"><i class="fab fa-linkedin"></i></div>
+          <div><p>LinkedIn</p><h5>linkedin.com/in/phat-cao</h5></div>
+        </a>
+      </div>
+
+      <div class="reveal">
+        <div class="cta-box">
+          <h3>Open to Work</h3>
+          <p>
+            Seeking data science, ML engineering, or software development roles in Australia or remote.
+            Master of Data Science completing December 2026.
+          </p>
+          <a href="mailto:cphat.dev@gmail.com" class="btn-white">
+            <i class="fas fa-paper-plane"></i> Email Me
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Built by <a href="#hero">Phat Cao</a> &nbsp;&middot;&nbsp; Victoria, Australia &nbsp;&middot;&nbsp; <a href="mailto:cphat.dev@gmail.com">cphat.dev@gmail.com</a></p>
+  <p class="sub">&copy; 2026 Phat Cao &nbsp;&middot;&nbsp; All rights reserved.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
