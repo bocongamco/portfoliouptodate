@@ -1,0 +1,110 @@
+
+1
+
+ 
+Phat Cao Victoria, Australia| P: +61 435291389 |cphat.dev@gmail.com  
+PROFESSIONAL SUMMARY  
+Aspiring Data Scientist and Master of Data Science candidate at RMIT University with hands-on experience in machine learning 
+and NLP classification. Proven ability to build and evaluate text classification models using Python, scikit-learn, and Hugging 
+Face Transformers, and integrate model outputs into data workflows. Skilled in Python, SQL, and data preprocessing, with 
+growing exposure to cloud and MLOps concepts. Eager to contribute to data-driven decision-making and AI deployment in 
+real-world environments. 
+TECHNICAL SKILLS  
+ 
+●  Framework: .NET 8 Web API, ASP.NET Core (Razor Pages), React.js, Flask, LangChain 
+●  Language: Python, SQL, C#, JavaScript, TypeScript, HTML, CSS,  
+●  AI: Hugging Face Transformers, DistilBERT, scikit-learn, Pandas, Ollama, RAG pipelines 
+●  Database: PostgreSQL, Microsoft SQL Server, Entity Framework Core, Data Modelling,  
+●  Methodologies: Agile (Scrum, Kanban), Secure data handling, MVC architecture 
+ 
+WORK EXPERIENCE   
+DATA SCIENCE INTERN   
+Telecommunications Industry Ombudsman  March, 2025 – Current 
+●  Built a system to automatically generate narrative insights from structured data using LLMs, reducing manual 
+reporting effort from days of works to half an hour and improving consistency of outputs. 
+●  Developed and tested prompt templates (Jinja2) to produce structured, repeatable insights aligned with existing business 
+reports. 
+●  Integrated data from Power BI into Microsoft Fabric (Notebook + Lakehouse) and prepared datasets for insight generation, 
+ensuring accuracy and alignment with validated metrics. 
+ 
+SERVICE DESK ASSISTANT   
+Optus    Jan, 2025 – Current 
+●  Provided Level 1 technical support across different hardware and software diagnoses and connectivity issues across mobile 
+devices. Resolved users’ account-related problems in a high-volume environment, achieving a 99% customer satisfaction 
+rating. 
+●  Managed and escalated users’ cases through internal systems, Jarvis and Salesforce, ensuring timely resolution and clear 
+documentation using the SAO (Situation, Action, Outcome) format, with full end-to-end case ownership.  
+●  Assisted with device setup and provisioning, including iOS and Android onboarding, SIM activation and reactivation, device 
+migration, and basic hardware and software troubleshooting. 
+●  Supported customers with fixed and broadband services, assisting with modem/router setup, basic LAN connectivity, and 
+service verification in-store.  
+ 
+PERSONAL PROJECT   
+TEXT CLASSIFICATION - CLOTHING REVIEW RECOMMENDATION  Sept, 2025 – Dec, 2025 
+Project Demo: https://youtu.be/HzJsgSMVjiQ 
+Project Repo: https://github.com/bocongamco/Clothing-Review.git 
+●  Cleaned and prepared a noisy dataset of ~19.7k clothing reviews provided by the lecturer using Python (pandas), converting 
+raw text and categorical labels into analysis-ready formats (binary labels 1/0). 
+●  Engineered and compared multiple text representations (Count-based, unweighted embeddings, TF-IDF embeddings) to 
+evaluate their impact on classification performance. 
+●  Trained and evaluated classification models using logistic regression with k-fold cross-validation, comparing accuracy and 
+macro F1-score to select the most effective representation. 
+●  Integrated the trained model into a local Flask web application, enabling real-time prediction on unseen review text for 
+demonstration purposes. 
+ 
+ 
+NLP TEXT CLASSIFICATION - FLIRT SENSE   Dec, 2025 - Jan, 2026  
+Project Repo: https://github.com/bocongamco/Flirt-or-not 
+●  Designed an NLP text classification system to detect flirting intent in chat messages, inspired by real-world ambiguity 
+observed on TikTok and short-form messaging platforms. 
+●  Generated and curated a synthetic dataset of ~5,000 chat messages using GPT, intentionally enforcing noise and class 
+imbalance to better reflect real conversational data. 
+●  Preprocessed and structured text data with cleaning, tokenisation, and train/validation/test splitting to ensure reliable model 
+evaluation. 
+●  Implemented a DistilBERT-based classifier using Hugging Face Transformers, achieving ~96–97% accuracy on held-out 
+data. 
+●  Enhanced prediction interpretability by exposing confidence scores, helping users understand uncertainty in borderline cases 
+while acknowledging the subjective nature of flirting detection. 
+ 
+EDUCATION   
+ 
+RMIT UNIVERSITY  Melbourne, 3000 
+Master of Data Science  Expected Dec 2026 
+Cumulative GPA: 3.2/4.0 
+ 
+MONASH UNIVERSITY  Melbourne, 3168 
+Bachelor of Information and Technology  Jul 2023 
+ 
+MONASH College  Melbourne, 3168 
+Diploma of Information and Technology  Jun 2021 
+ 
+REFERENCES    
+ 
+Available upon request 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
